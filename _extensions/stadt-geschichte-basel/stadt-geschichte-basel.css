@@ -1,0 +1,72 @@
+/* Additional CSS customizations for Stadt Geschichte Basel theme */
+
+/* Logo and branding refinements */
+.navbar-brand img {
+	max-height: 40px;
+	width: auto;
+}
+
+/* Enhanced navigation */
+.navbar {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Content layout improvements */
+.page-columns {
+	margin-top: 1rem;
+}
+
+/* Enhanced readability */
+.quarto-container {
+	max-width: 1200px;
+}
+
+/* Research data specific styling */
+.data-table-wrapper {
+	overflow-x: auto;
+	border: 1px solid #e9ecef;
+	border-radius: 0.375rem;
+	margin: 1rem 0;
+}
+
+.metadata-section {
+	background-color: #f8f9fa;
+	border: 1px solid #e9ecef;
+	border-radius: 0.375rem;
+	padding: 1.5rem;
+	margin: 1rem 0;
+}
+
+.metadata-section h3 {
+	color: #2c5234;
+	margin-bottom: 1rem;
+}
+
+/* Citation styling */
+.citation-box {
+	background-color: #f0f7f4;
+	border: 1px solid #2c5234;
+	border-radius: 0.375rem;
+	padding: 1rem;
+	margin: 1rem 0;
+	font-family: monospace;
+	font-size: 0.9rem;
+}
+
+/* DOI and link styling */
+.doi-link {
+	color: #2c5234;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.doi-link:hover {
+	text-decoration: underline;
+}
+
+/* Responsive data tables */
+@media (max-width: 768px) {
+	.data-table-wrapper {
+		font-size: 0.85rem;
+	}
+}

@@ -54,8 +54,10 @@ format:
     toc: true
     theme:
       - brand
-      - cosmo
-    css: styles.css
+      - _extensions/stadt-geschichte-basel/stadt-geschichte-basel.scss
+    css:
+      - styles.css
+      - _extensions/stadt-geschichte-basel/stadt-geschichte-basel.css
     code-copy: true
     code-overflow: wrap
 
