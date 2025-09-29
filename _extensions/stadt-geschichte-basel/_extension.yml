@@ -1,0 +1,9 @@
+title: Stadt Geschichte Basel Theme
+author: Stadt Geschichte Basel
+version: 1.0.0
+quarto-required: '>=1.4.0'
+contributes:
+  formats:
+    html:
+      theme: [cosmo, stadt-geschichte-basel.scss]
+      css: stadt-geschichte-basel.css

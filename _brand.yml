@@ -6,4 +6,24 @@ meta:
   description: |
     SHORT_DESCRIPTION
 
+# Stadt Geschichte Basel theme configuration
+color:
+  primary: '#2C5234'
+  secondary: '#8B4513'
+  success: '#28A745'
+  info: '#17A2B8'
+  warning: '#FFC107'
+  danger: '#DC3545'
+  light: '#F8F9FA'
+  dark: '#343A40'
+
+# Typography configuration
+typography:
+  base:
+    family: 'Helvetica Neue, Helvetica, Arial, sans-serif'
+    size: '1rem'
+    line-height: 1.6
+  headings:
+    family: 'Helvetica Neue, Helvetica, Arial, sans-serif'
+    weight: 600
 # Go to https://quarto.org/docs/authoring/brand.html to learn more about multiformat branding with brand.yml
